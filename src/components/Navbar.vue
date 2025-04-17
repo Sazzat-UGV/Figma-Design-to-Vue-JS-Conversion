@@ -22,7 +22,7 @@
       </div>
       <div class="flex lg:hidden items-center gap-2">
         <button
-          class="relative z-300 px-4 py-2 text-sm rounded-full text-white font-medium bg-secondary tracking-wider uppercase w-full lg:w-auto -mt-1.5"
+          class="block md:hidden relative z-300 px-4 py-2 text-sm rounded-full text-white font-medium bg-secondary tracking-wider uppercase w-full lg:w-auto -mt-1.5"
         >
           Donate
         </button>
@@ -48,16 +48,16 @@
         class="absolute lg:static top-20 inset-x-0 flex flex-col lg:flex-row items-center gap-5 lg:gap-10 bg-primary-200 lg:bg-transparent pt-5 pb-10 px-5 lg:p-0 transition duration-500 lg:duration-200 lg:-translate-y-0"
         :class="!showMenu ? 'translate-y-[-150%]' : '-translate-y-0'"
       >
-        <a href="" @click="showMenu = false" class="text-white font-medium"
+        <a href="#home" @click="showMenu = false" class="text-white font-medium"
           >Home</a
         >
-        <a href="" @click="showMenu = false" class="text-white font-medium"
+        <a href="#category" @click="showMenu = false" class="text-white font-medium"
           >Category</a
         >
-        <a href="" @click="showMenu = false" class="text-white font-medium"
+        <a href="#about" @click="showMenu = false" class="text-white font-medium"
           >About</a
         >
-        <a href="" @click="showMenu = false" class="text-white font-medium"
+        <a href="#trick" @click="showMenu = false" class="text-white font-medium"
           >Trick Or Treat</a
         >
         <button

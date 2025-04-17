@@ -8,7 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "swiper": "^8.4.5",
+    "swiper": "^11.2.6",
     "vue": "^3.2.45"
   },
   "devDependencies": {
