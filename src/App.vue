@@ -5,6 +5,7 @@
 <Category/>
 <TrickOrTreat/>
 <Subcription/>
+<Footer/>
 </div>
 </template>
 
@@ -14,4 +15,5 @@ import Home from './components/Home.vue';
 import Category from './components/Cateogry.vue';
 import TrickOrTreat from './components/TrickOrTreat.vue';
 import Subcription from './components/Subcription.vue';
+import Footer from './components/Footer.vue';
 </script>
