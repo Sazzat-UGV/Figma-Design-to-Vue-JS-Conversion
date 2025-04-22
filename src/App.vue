@@ -4,6 +4,7 @@
 <Home/>
 <Category/>
 <TrickOrTreat/>
+<Subcription/>
 </div>
 </template>
 
@@ -12,4 +13,5 @@ import Navbar from './components/Navbar.vue';
 import Home from './components/Home.vue';
 import Category from './components/Cateogry.vue';
 import TrickOrTreat from './components/TrickOrTreat.vue';
+import Subcription from './components/Subcription.vue';
 </script>
