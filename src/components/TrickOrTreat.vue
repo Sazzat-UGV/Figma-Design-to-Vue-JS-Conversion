@@ -22,6 +22,6 @@
     </div>
   </section>
 </template>
-<script setup>
-import tots from "../data/trickOrTreat.js";
-</script>
+  <script setup>
+  import tots from "../data/trickOrTreat.js";
+  </script>

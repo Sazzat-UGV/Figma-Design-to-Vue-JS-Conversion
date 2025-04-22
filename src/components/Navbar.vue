@@ -1,7 +1,7 @@
 <template>
   <nav
     ref="navbar"
-    class="fixed top-0 left-0 w-full bg-primary-200 z-200 transition duration-200"
+    class="fixed top-0 left-0 w-full bg-primary-200 z-[200000] transition duration-200"
   >
     <div class="container flex items-center justify-between h-20">
       <div class="relative x-30 flex items-center gap-2 mb-2 lg:mb-0">
@@ -45,19 +45,28 @@
         </button>
       </div>
       <div
-        class="absolute lg:static top-20 inset-x-0 flex flex-col lg:flex-row items-center gap-5 lg:gap-10 bg-primary-200 lg:bg-transparent pt-5 pb-10 px-5 lg:p-0 transition duration-500 lg:duration-200 lg:-translate-y-0"
+        class="absolute  lg:static top-20 inset-x-0 flex flex-col lg:flex-row items-center gap-5 lg:gap-10 bg-primary-200 lg:bg-transparent pt-5 pb-10 px-5 lg:p-0 transition duration-500 lg:duration-200 lg:-translate-y-0"
         :class="!showMenu ? 'translate-y-[-150%]' : '-translate-y-0'"
       >
         <a href="#home" @click="showMenu = false" class="text-white font-medium"
           >Home</a
         >
-        <a href="#category" @click="showMenu = false" class="text-white font-medium"
+        <a
+          href="#category"
+          @click="showMenu = false"
+          class="text-white font-medium"
           >Category</a
         >
-        <a href="#about" @click="showMenu = false" class="text-white font-medium"
+        <a
+          href="#about"
+          @click="showMenu = false"
+          class="text-white font-medium"
           >About</a
         >
-        <a href="#trick" @click="showMenu = false" class="text-white font-medium"
+        <a
+          href="#trick"
+          @click="showMenu = false"
+          class="text-white font-medium"
           >Trick Or Treat</a
         >
         <button
